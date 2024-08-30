@@ -1,0 +1,479 @@
+1702222676095	geckodriver	INFO	Listening on 127.0.0.1:62830
+1702222679151	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ahste\\AppData\\Local\\Temp\\rust_mozprofilesCo5DK"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1702222679770	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1702222679907	Marionette	INFO	Listening on port 62846
+Read port: 62846
+1702222680122	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1702222709811	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: resource://gre/modules/PromiseWorker.sys.mjs, line 102: Error: Could not get children of file(C:\Users\ahste\AppData\Local\Temp\rust_mozprofilesCo5DK\thumbnails) because it does not exist
+1702345035404	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.error: (new Error("Polling for changes failed: NetworkError: Network request failed.", "resource://services-settings/remote-settings.sys.mjs", 321))
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1702446632350	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: resource://gre/modules/PromiseWorker.sys.mjs, line 102: Error: Could not get children of file(C:\Users\ahste\AppData\Local\Temp\rust_mozprofilesCo5DK\thumbnails) because it does not exist
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: https://sleepercdn.com/js/bundle-69fca4fcdffb9c3f4d4d77d586e0460a.js?vsn=d, line 117: TypeError: i.props.onPlayerSelected is not a function
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-QEMDVZ8GRQ, line 161: Script terminated by timeout at:
+l@https://www.googletagmanager.com/gtag/js?id=G-QEMDVZ8GRQ:161:17
+mA@https://www.googletagmanager.com/gtag/js?id=G-QEMDVZ8GRQ:487:134
+nA/<@https://www.googletagmanager.com/gtag/js?id=G-QEMDVZ8GRQ:487:111
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevTool1702449126954	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://connect.facebook.net/en_US/fbevents.js, line 24: Script terminated by timeout at:
+value@https://connect.facebook.net/en_US/fbevents.js:24:7878
+@https://connect.facebook.net/en_US/fbevents.js:24:69164
+
+1702449188122	Marionette	INFO	Stopped listening on port 51103
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+gs: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1702449188340	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1702449188428	Marionette	INFO	Listening on port 51817
+Read port: 51817
+1702449188583	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1702449218971	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1702449265817	geckodriver	INFO	Listening on 127.0.0.1:52271
+1702449268850	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ahste\\AppData\\Local\\Temp\\rust_mozprofileAxCUYD"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1702449269195	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1702449269274	Marionette	INFO	Listening on port 52283
+Read port: 52283
+1702449269416	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1702449299728	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://connect.facebook.net/en_US/fbevents.js, line 24: Script terminated by timeout at:
+value@https://connect.facebook.net/en_US/fbevents.js:24:7878
+@https://connect.facebook.net/en_US/fbevents.js:24:69164
+
+1702449946286	Marionette	INFO	Stopped listening on port 52283
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+ port 52765
+Read port: 52765
+1702449394481	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://connect.facebook.net/en_US/fbevents.js, line 24: Script terminated by timeout at:
+value@https://connect.facebook.net/en_US/fbevents.js:24:7878
+@https://connect.facebook.net/en_US/fbevents.js:24:69164
+
+1702449398152	Marionette	INFO	Stopped listening on port 52765
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1702449406038	geckodriver	INFO	Listening on 127.0.0.1:53048
+1702449409104	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ahste\\AppData\\Local\\Temp\\rust_mozprofileqgUP4K"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1702449409430	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1702449409508	Marionette	INFO	Listening on port 53063
+Read port: 53063
+1702449409643	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1702449440010	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://connect.facebook.net/en_US/fbevents.js, line 24: Script terminated by timeout at:
+value@https://connect.facebook.net/en_US/fbevents.js:24:7878
+@https://connect.facebook.net/en_US/fbevents.js:24:69164
+
+1702449653936	Marionette	INFO	Stopped listening on port 53063
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+ port 53376
+Read port: 53376
+1702449618800	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://connect.facebook.net/en_US/fbevents.js, line 24: Script terminated by timeout at:
+value@https://connect.facebook.net/en_US/fbevents.js:24:7878
+@https://connect.facebook.net/en_US/fbevents.js:24:69164
+
+1702449646577	Marionette	INFO	Stopped listening on port 53376
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1702449742023	geckodriver	INFO	Listening on 127.0.0.1:54495
+1702449745106	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ahste\\AppData\\Local\\Temp\\rust_mozprofilebXSbf8"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1702449745448	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1702449745524	Marionette	INFO	Listening on port 54505
+Read port: 54505
+1702449745684	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1702449776058	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://connect.facebook.net/en_US/fbevents.js, line 24: Script terminated by timeout at:
+value@https://connect.facebook.net/en_US/fbevents.js:24:7878
+@https://connect.facebook.net/en_US/fbevents.js:24:69164
+
+1702449947477	Marionette	INFO	Stopped listening on port 54505
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+ port 54969
+Read port: 54969
+1702449791518	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1702449821878	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://connect.facebook.net/en_US/fbevents.js, line 24: Script terminated by timeout at:
+value@https://connect.facebook.net/en_US/fbevents.js:24:7878
+@https://connect.facebook.net/en_US/fbevents.js:24:69164
+
+1702449948858	Marionette	INFO	Stopped listening on port 54969
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1702449952392	geckodriver	INFO	Listening on 127.0.0.1:55895
+1702449955476	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ahste\\AppData\\Local\\Temp\\rust_mozprofilecdNkyK"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1702449955812	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1702449955882	Marionette	INFO	Listening on port 55909
+Read port: 55909
+1702449956024	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1702449986380	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://connect.facebook.net/en_US/fbevents.js, line 24: Script terminated by timeout at:
+value@https://connect.facebook.net/en_US/fbevents.js:24:7878
+@https://connect.facebook.net/en_US/fbevents.js:24:69164
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1702450411086	Marionette	INFO	Stopped listening on port 55909
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_JavaScript warning: https://connect.facebook.net/en_US/fbevents.js, line 24: Script terminated by timeout at:
+value@https://connect.facebook.net/en_US/fbevents.js:24:7878
+@https://connect.facebook.net/en_US/fbevents.js:24:69164
+
+1702450412207	Marionette	INFO	Stopped listening on port 56751
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+ port 57126
+Read port: 57126
+1702450043306	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1702450073640	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://connect.facebook.net/en_US/fbevents.js, line 24: Script terminated by timeout at:
+value@https://connect.facebook.net/en_US/fbevents.js:24:7878
+@https://connect.facebook.net/en_US/fbevents.js:24:69164
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1702450413335	Marionette	INFO	Stopped listening on port 57126
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+oogle.com/xjs/_/js/k=xjs.s.en_US.e5Jf4Dp7ipo.O/am=ACAAAAgQAAAAAAAAAAAAAABAAAAAAAAEoSccAtgAAfDLPABAABAEAAWiikKAA4BAwOc_IQAAAAAAABMgMABkAUSF3yEAADCBKgA7ACAAAAT7AYAOAAABAAAYAIIDARoKwQGEgBIQAAAAQB4AngcwHERbAAAAAAAAAAAAABDQBMHggPRHQAAEAAAAAAAAAAAAAEhJk5cDCACAAQ/d=1/ed=1/dg=2/rs=ACT90oFgcYznlZNHZ7ywa61IXayzTrjzew/ee=cEt90b:ws9Tlc;qddgKe:x4FYXe,d7YSfd;yxTchf:KUM7Z;dtl0hd:lLQWFe;eHDfl:ofjVkb;qaS3gd:yiLg6e;nAFL3:NTMZac,s39S4;oGtAuc:sOXFj;iFQyKf:vfuNJf,QIhFr;SNUn3:ZwDk9d,x8cHvb;io8t5d:sgY6Zb;Oj465e:KG2eXe,KG2eXe;Erl4fe:FloWmf,FloWmf;JsbNhc:Xd8iUd;sP4Vbe:VwDzFe;kMFpHd:OTA3Ae;uY49fb:COQbmf;Pjplud:PoEs9b,EEDORb;QGR0gd:Mlhmy;a56pNe:JEfCwb;Me32dd:MEeYgc;wR5FRb:TtcOte,O1Gjze;pXdRYb:JKoKVe;dIoSBb:ZgGg9b;EmZ2Bf:zr1jrb;NSEoX:lazG7b;eBAeSb:Ck63tb;WCEKNd:I46Hvd;wV5Pjc:L8KGxe;EVNhjf:pw70Gc;sTsDMc:kHVSUb;wQlYve:aLUfP;zOsCQe:Ko78Df;KcokUb:KiuZBf;kbAm9d:MkHyGd;g8nkx:U4MzKc;YV5bee:IvPZ6d;IoGlCf:b5lhvb;w9w86d:dt4g2b;ESrPQc:mNTJvc;bFZ6gf:RsDQqe;JXS8fb:Qj0suc;UyG7Kb:wQd0G;LsNahb:ucGLNb;xBbsrc:NEW1Qc;tosKvd:ZCqP3;vfVwPd:lcrkwe;GleZL:J1A7Od;bcPXSc:gSZLJb;VN6jIc:ddQyuf;oUlnpc:RagDlc;CxXAWb:YyRLvc;VGRfx:VFqbr;EABSZ:MXZt9d;DpcR3d:zL72xf;NPKaK:SdcwHb;LBgRLc:XVMNvd,SdcwHb;ZWEUA:afR4Cf;qZx2Fc:j0xrE;lzgfYb:PI40bd;pNsl2d:j9Yuyc;VsAqSb:PGf2Re;R9Ulx:CR7Ufe;kY7VAf:d91TEb;KpRAue:Tia57b;jY0zg:Q6tNgc;coJ8e:KvoW8;oSUNyd:fTfGO,fTfGO,pnvXVc;SMDL4c:fTfGO,pnvXVc;aZ61od:arTwJ;w4rSdf:XKiZ9;h3MYod:cEt90b;eO3lse:nFClrf;zaIgPb:Qtpxbd;HMDDWe:G8QUdb;ShpF6e:N0pvGc;k2Qxcb:XY51pe;IBADCc:RYquRb;pKJiXd:VCenhc;rQSrae:C6D5Fc;kCQyJ:ueyPK;qavrXe:zQzcXe,mYbt1d;TxfV6d:YORN0b;UDrY1c:eps46d;F9mqte:UoRcbe;Nyt6ic:jn2sGd;w3bZCb:ZPGaIb;G0KhTb:LIaoZ;XUezZ:sa7lqb;aAJE9c:WHW6Ef;V2HTTe:RolTY;Wfmdue:g3MJlb;imqimf:jKGL2e;BgS6mb:fidj5d;gtVSi:ekUOYd;KQzWid:ZMKkN;UVmjEd:EesRsb;z97YGf:oug9te;AfeaP:TkrAjf;eBZ5Nd:audvde;OgagBe:cNTe0;SLtqO:Kh1xYe;VOcgDe:YquhTb;uuQkY:u2V3ud;WDGyFe:jcVOxd;trZL0b:qY8PFe;VxQ32b:k0XsBb;DULqB:RKfG5c;Np8Qkd:Dpx6qc;cFTWae:gT8qnd;gaub4:TN6bMe;hjRo6e:F62sG;BjwMce:cXX2Wb;yGxLoc:FmAr0c;pj82le:mg5CW;dLlj2:Qqt3Gf;qGV2uc:HHi04c;R2kc8b:ALJqWb;EnlcNd:WeHg4;Q1Ow7b:x5CSu;okUaUd:wItadb;xbe2wc:uRMPBc;KOxcK:bFOvTc;G6wU6e:hezEbd;uknmt:GkPrzb;U96pRd:FsR04;PqHfGe:im2cZe;heHB1:sFczq;Fmv9Nc:O1Tzwc;hK67qb:QWEO5b;BMxAGc:E5bFse;R4IIIb:QWfeKf;whEZac:F4AmNb;tH4IIe:Ymry6;lkq0A:JyBE3e;daB6be:lMxGPd;LEikZe:byfTOb,lsjVmc/m=attn,cdos,cr,gwc,hsm,jsa,mb4ZUb,d,csi,cEt90b,SNUn3,qddgKe,sTsDMc,dtl0hd,eHDfl, line 417: Script terminated by timeout at:
+b@https://www.google.com/xjs/_/js/k=xjs.s.en_US.e5Jf4Dp7ipo.O/am=ACAAAAgQAAAAAAAAAAAAAABAAAAAAAAEoSccAtgAAfDLPABAABAEAAWiikKAA4BAwOc_IQAAAAAAABMgMABkAUSF3yEAADCBKgA7ACAAAAT7AYAOAAABAAAYAIIDARoKwQGEgBIQAAAAQB4AngcwHERbAAAAAAAAAAAAABDQBMHggPRHQAAEAAAAAAAAAAAAAEhJk5cDCACAAQ/d=1/ed=1/dg=2/rs=ACT90oFgcYznlZNHZ7ywa61IXayzTrjzew/ee=cEt90b:ws9Tlc;qddgKe:x4FYXe,d7YSfd;yxTchf:KUM7Z;dtl0hd:lLQWFe;eHDfl:ofjVkb;qaS3gd:yiLg6e;nAFL3:NTMZac,s39S4;oGtAuc:sOXFj;iFQyKf:vfuNJf,QIhFr;SNUn3:ZwDk9d,x8cHvb;io8t5d:sgY6Zb;Oj465e:KG2eXe,KG2eXe;Erl4fe:FloWmf,FloWmf;JsbNhc:Xd8iUd;sP4Vbe:VwDzFe;kMFpHd:OTA3Ae;uY49fb:COQbmf;Pjplud:PoEs9b,EEDORb;QGR0gd:Mlhmy;a56pNe:JEfCwb;Me32dd:MEeYgc;wR5FRb:TtcOte,O1Gjze;pXdRYb:JKoKVe;dIoSBb:ZgGg9b;EmZ2Bf:zr1jrb;NSEoX:lazG7b;eBAeSb:Ck63tb;WCEKNd:I46Hvd;wV5Pjc:L8KGxe;EVNhjf:pw70Gc;sTsDMc:kHVSUb;wQlYve:aLUfP;zOsCQe:Ko78Df;KcokUb:KiuZBf;kbAm9d:MkHyGd;g8nkx:U4MzKc;YV5bee:IvPZ6d;IoGlCf:b5lhvb;w9w86d:dt4g2b;ESrPQc:mNTJvc;bFZ6gf:RsDQqe;JXS8fb:Qj0suc;UyG7Kb:wQd0G;LsNahb:ucGLNb;xBbsrc:NEW1Qc;tosKvd:ZCqP3;vfVwPd:lcrkwe;GleZL:J1A7Od;bcPXSc:gSZLJb;VN6jIc:ddQyuf;oUlnpc:RagDlc;CxXAWb:YyRLvc;VGRfx:VFqbr;EABSZ:MXZt9d;DpcR3d:zL72xf;NPKaK:SdcwHb;LBgRLc:XVMNvd,SdcwHb;ZWEUA:afR4Cf;qZx2Fc:j0xrE;lzgfYb:PI40bd;pNsl2d:j9Yuyc;VsAqSb:PGf2Re;R9Ulx:CR7Ufe;kY7VAf:d91TEb;KpRAue:Tia57b;jY0zg:Q6tNgc;coJ8e:KvoW8;oSUNyd:fTfGO,fTfGO,pnvXVc;SMDL4c:fTfGO,pnvXVc;aZ61od:arTwJ;w4rSdf:XKiZ9;h3MYod:cEt90b;eO3lse:nFClrf;zaIgPb:Qtpxbd;HMDDWe:G8QUdb;ShpF6e:N0pvGc;k2Qxcb:XY51pe;IBADCc:RYquRb;pKJiXd:VCenhc;rQSrae:C6D5Fc;kCQyJ:ueyPK;qavrXe:zQzcXe,mYbt1d;TxfV6d:YORN0b;UDrY1c:eps46d;F9mqte:UoRcbe;Nyt6ic:jn2sGd;w3bZCb:ZPGaIb;G0KhTb:LIaoZ;XUezZ:sa7lqb;aAJE9c:WHW6Ef;V2HTTe:RolTY;Wfmdue:g3MJlb;imqimf:jKGL2e;BgS6mb:fidj5d;gtVSi:ekUOYd;KQzWid:ZMKkN;UVmjEd:EesRsb;z97YGf:oug9te;AfeaP:TkrAjf;eBZ5Nd:audvde;OgagBe:cNTe0;SLtqO:Kh1xYe;VOcgDe:YquhTb;uuQkY:u2V3ud;WDGyFe:jcVOxd;trZL0b:qY8PFe;VxQ32b:k0XsBb;DULqB:RKfG5c;Np8Qkd:Dpx6qc;cFTWae:gT8qnd;gaub4:TN6bMe;hjRo6e:F62sG;BjwMce:cXX2Wb;yGxLoc:FmAr0c;pj82le:mg5CW;dLlj2:Qqt3Gf;qGV2uc:HHi04c;R2kc8b:ALJqWb;EnlcNd:WeHg4;Q1Ow7b:x5CSu;okUaUd:wItadb;xbe2wc:uRMPBc;KOxcK:bFOvTc;G6wU6e:hezEbd;uknmt:GkPrzb;U96pRd:FsR04;PqHfGe:im2cZe;heHB1:sFczq;Fmv9Nc:O1Tzwc;hK67qb:QWEO5b;BMxAGc:E5bFse;R4IIIb:QWfeKf;whEZac:F4AmNb;tH4IIe:Ymry6;lkq0A:JyBE3e;daB6be:lMxGPd;LEikZe:byfTOb,lsjVmc/m=attn,cdos,cr,gwc,hsm,jsa,mb4ZUb,d,csi,cEt90b,SNUn3,qddgKe,sTsDMc,dtl0hd,eHDfl:417:40
+
+1702450117345	Marionette	INFO	Stopped listening on port 57358
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1702450242406	geckodriver	INFO	Listening on 127.0.0.1:58006
+1702450245477	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ahste\\AppData\\Local\\Temp\\rust_mozprofileXSXdhG"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1702450245893	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1702450245974	Marionette	INFO	Listening on port 58026
+Read port: 58026
+1702450246114	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1702450276492	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://connect.facebook.net/en_US/fbevents.js, line 24: Script terminated by timeout at:
+value@https://connect.facebook.net/en_US/fbevents.js:24:7878
+@https://connect.facebook.net/en_US/fbevents.js:24:69164
+
+1702450414438	Marionette	INFO	Stopped listening on port 58026
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+ port 58792
+Read port: 58792
+1702450380192	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1702450410635	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://connect.facebook.net/en_US/fbevents.js, line 24: Script terminated by timeout at:
+value@https://connect.facebook.net/en_US/fbevents.js:24:7878
+@https://connect.facebook.net/en_US/fbevents.js:24:69164
+
+1702450415958	Marionette	INFO	Stopped listening on port 58792
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1702524876006	geckodriver	INFO	Listening on 127.0.0.1:65150
+1702524879056	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ahste\\AppData\\Local\\Temp\\rust_mozprofileOposzx"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1702524879535	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1702524879640	Marionette	INFO	Listening on port 65162
+Read port: 65162
+1702524879879	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1702524911787	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://connect.facebook.net/en_US/fbevents.js, line 24: Script terminated by timeout at:
+value@https://connect.facebook.net/en_US/fbevents.js:24:7878
+@https://connect.facebook.net/en_US/fbevents.js:24:69164
+
+1702525222695	Marionette	INFO	Stopped listening on port 65162
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+ port 51696
+Read port: 51696
+1702525131757	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1702525161983	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript warning: https://connect.facebook.net/en_US/fbevents.js, line 24: Script terminated by timeout at:
+value@https://connect.facebook.net/en_US/fbevents.js:24:7878
+@https://connect.facebook.net/en_US/fbevents.js:24:69164
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1702526114843	Marionette	INFO	Stopped listening on port 51696
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+ct.facebook.net/en_US/fbevents.js, line 24: Script terminated by timeout at:
+value@https://connect.facebook.net/en_US/fbevents.js:24:7878
+@https://connect.facebook.net/en_US/fbevents.js:24:69164
+
+1702525645344	Marionette	INFO	Stopped listening on port 54585
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1702526124486	geckodriver	INFO	Listening on 127.0.0.1:56787
+1702526127573	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ahste\\AppData\\Local\\Temp\\rust_mozprofilel6loaG"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1702526128552	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1702526128739	Marionette	INFO	Listening on port 56798
+Read port: 56798
+1702526129028	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1702526161869	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://connect.facebook.net/en_US/fbevents.js, line 24: Script terminated by timeout at:
+value@https://connect.facebook.net/en_US/fbevents.js:24:7878
+@https://connect.facebook.net/en_US/fbevents.js:24:69164
+
+1702526245168	Marionette	INFO	Stopped listening on port 56798
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+ port 57486
+Read port: 57486
+1702526245154	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1702526276970	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1702531350608	geckodriver	INFO	Listening on 127.0.0.1:57602
+1702531353704	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ahste\\AppData\\Local\\Temp\\rust_mozprofile1RCXEr"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1702531354503	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1702531354713	Marionette	INFO	Listening on port 57612
+Read port: 57612
+1702531355013	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1702531385148	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1702531675273	geckodriver	INFO	Listening on 127.0.0.1:58104
+1702531678348	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ahste\\AppData\\Local\\Temp\\rust_mozprofilerkGhhJ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1702531679194	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1702531679307	Marionette	INFO	Listening on port 58116
+Read port: 58116
+1702531679516	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1702531709262	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1702531816297	geckodriver	INFO	Listening on 127.0.0.1:58543
+1702531819376	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ahste\\AppData\\Local\\Temp\\rust_mozprofilee8W7el"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1702531820295	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1702531820520	Marionette	INFO	Listening on port 58558
+Read port: 58558
+1702531820880	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1702531852919	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1702531905727	geckodriver	INFO	Listening on 127.0.0.1:59058
+1702531908792	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ahste\\AppData\\Local\\Temp\\rust_mozprofileRLPcHu"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1702531909552	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1702531909720	Marionette	INFO	Listening on port 59071
+Read port: 59071
+1702531909979	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1702531940535	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://connect.facebook.net/en_US/fbeve1702532070506	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ahste\\AppData\\Local\\Temp\\rust_mozprofileDcUfvY"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1702532071579	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1702532071714	Marionette	INFO	Listening on port 59518
+Read port: 59518
+1702532071969	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1702532102284	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://connect.facebook.net/en_US/fbevents.js, line 24: Script terminated by timeout at:
+value@https://connect.facebook.net/en_US/fbevents.js:24:7878
+@https://connect.facebook.net/en_US/fbevents.js:24:69164
+
+1702532298006	Marionette	INFO	Stopped listening on port 59518
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1702532314082	geckodriver	INFO	Listening on 127.0.0.1:59951
+1702532317154	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ahste\\AppData\\Local\\Temp\\rust_mozprofilemvrBmx"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1702532318035	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1702532318281	Marionette	INFO	Listening on port 59967
+Read port: 59967
+1702532318580	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1702532348112	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\ahste\AppData\Local\Temp\rust_mozprofilemvrBmx\bookmarkbackups\bookmarks-2023-12-13.jsonlz4) because it does not exist
+JavaScript warning: https://connect.facebook.net/en_US/fbeve1702533426456	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ahste\\AppData\\Local\\Temp\\rust_mozprofileDYODFG"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1702533427174	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1702533427312	Marionette	INFO	Listening on port 53530
+Read port: 53530
+1702533427604	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+1702533519383	geckodriver	INFO	Listening on 127.0.0.1:54024
+1702533522446	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ahste\\AppData\\Local\\Temp\\rust_mozprofilekolfkC"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1702533523133	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1702533523331	Marionette	INFO	Listening on port 54034
+Read port: 54034
+1702533523559	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1702533555775	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://connect.facebook.net/en_US/fbevents.js, line 24: Script terminated by timeout at:
+value@https://connect.facebook.net/en_US/fbevents.js:24:7878
+@https://connect.facebook.net/en_US/fbevents.js:24:69164
+
+1702533567513	Marionette	INFO	Stopped listening on port 54034
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+ port 55435
+Read port: 55435
+1702533563812	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1702533593553	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://connect.facebook.net/en_US/fbevents.js, line 24: Script terminated by timeout at:
+value@https://connect.facebook.net/en_US/fbevents.js:24:7878
+@https://connect.facebook.net/en_US/fbevents.js:24:69164
+
+1702534533456	Marionette	INFO	Stopped listening on port 55435
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+ port 59625
+Read port: 59625
+1702534431659	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1702534462743	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-QEMDVZ8GRQ, line 161: Script terminated by timeout at:
+l@https://www.googletagmanager.com/gtag/js?id=G-QEMDVZ8GRQ:161:17
+mA@https://www.googletagmanager.com/gtag/js?id=G-QEMDVZ8GRQ:487:134
+nA/<@https://www.googletagmanager.com/gtag/js?id=G-QEMDVZ8GRQ:487:111
+
+1702534535602	Marionette	INFO	Stopped listening on port 59625
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1702534538997	geckodriver	INFO	Listening on 127.0.0.1:60060
+1702534542078	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ahste\\AppData\\Local\\Temp\\rust_mozprofilevMrMvM"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1702534542898	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1702534543005	Marionette	INFO	Listening on port 60072
+Read port: 60072
+1702534543241	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1702534573317	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-QEMDVZ8GRQ, line 161: Script terminated by timeout at:
+l@https://www.googletagmanager.com/gtag/js?id=G-QEMDVZ8GRQ:161:17
+mA@https://www.googletagmanager.com/gtag/js?id=G-QEMDVZ8GRQ:487:134
+nA/<@https://www.googletagmanager.com/gtag/js?id=G-QEMDVZ8GRQ:487:111
+
+1702534684806	Marionette	INFO	Stopped listening on port 60072
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+d for this session
+1702534650510	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://connect.facebook.net/en_US/fbevents.js, line 24: Script terminated by timeout at:
+value@https://connect.facebook.net/en_US/fbevents.js:24:7878
+@https://connect.facebook.net/en_US/fbevents.js:24:69164
+
+1702534686883	Marionette	INFO	Stopped listening on port 60363
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1702534692113	geckodriver	INFO	Listening on 127.0.0.1:60647
+1702534695185	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ahste\\AppData\\Local\\Temp\\rust_mozprofileBgid6C"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1702534696029	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1702534696228	Marionette	INFO	Listening on port 60657
+Read port: 60657
+1702534696577	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1702534726101	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://connect.facebook.net/en_US/fbevents.js, line 24: Script terminated by timeout at:
+value@https://connect.facebook.net/en_US/fbevents.js:24:7878
+@https://connect.facebook.net/en_US/fbevents.js:24:69164
+
+1702535420028	Marionette	INFO	Stopconsole.warn: services.settinDynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned fai1702535420935	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1702535421141	Marionette	INFO	Listening on port 52169
+Read port: 52169
+1702535421674	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1702535453541	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://connect.facebook.net/en_US/fbevents.js, line 24: Script terminated by timeout at:
+value@https://connect.facebook.net/en_US/fbevents.js:24:7878
+@https://connect.facebook.net/en_US/fbevents.js:24:69164
+
+1702535540598	Marionette	INFO	Stopped listening on port 52169
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1702535551716	geckodriver	INFO	Listening on 127.0.0.1:52828
+1702535554789	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ahste\\AppData\\Local\\Temp\\rust_mozprofileSa2BzW"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1702535555719	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1702535555989	Marionette	INFO	Listening on port 52841
+Read port: 52841
+1702535556336	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1702535586854	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://connect.facebook.net/en_US/fbevents.js, line 24: Script terminated by timeout at:
+value@https://connect.facebook.net/en_US/fbevents.js:24:7878
+@https://connect.facebook.net/en_US/fbevents.js:24:69164
+
+1702536584934	Marionette	INFO	Stopped listening on port 52841
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+ port 57746
+Read port: 57746
+1702536330041	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1702536361545	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://connect.facebook.net/en_US/fbevents.js, line 24: Script terminated by timeout at:
+value@https://connect.facebook.net/en_US/fbevents.js:24:7878
+@https://connect.facebook.net/en_US/fbevents.js:24:69164
+
+1702536586498	Marionette	INFO	Stopped listening on port 57746
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1702536590393	geckodriver	INFO	Listening on 127.0.0.1:60100
+1702536593474	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ahste\\AppData\\Local\\Temp\\rust_mozprofilesGBLws"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1702536593853	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1702536593933	Marionette	INFO	Listening on port 60112
+Read port: 60112
+1702536594075	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1702536624422	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1702704579233	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript warning: https://connect.facebook.net/en_US/fbevents.js, line 24: Script terminated by timeout at:
+value@https://connect.facebook.net/en_US/fbevents.js:24:7878
+@https://connect.facebook.net/en_US/fbevents.js:24:69164
+
+1702705294072	Marionette	INFO	Stopped listening on port 60112
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
