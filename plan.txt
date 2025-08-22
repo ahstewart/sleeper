@@ -1,0 +1,38 @@
+Sleeper draft tool purpose:
+provide real time data on available players and their projected values to help make better auction draft decisions.
+
+features:
+- for every player available in the sleeper system, assign a draft value
+- live update draft value based on draft actions
+
+value function of
+- player's projection
+- value over replacement (how bad is it if I don't get him)
+- available draft dollars (what can i spend)
+- total available draft dollars (what can others spend)
+- team value (how important is this person to my team)
+- positional standard deviation (how different are any of the players)
+
+types of value
+1. raw value = cost of player if they were priced at a store based on value to the team's projected points
+2. adjusted value = cost of players taking into account available roster spots and available money
+
+draft goal
+- finish draft with the maximum team projection possible
+
+requirements:
+get all player projections
+- fetch all available players
+- fetch scoring settings
+- fetch projections
+- apply scoring settings to get accurate projections
+
+get other value parameters
+- get roster settings
+- get live draft info (each team's available money and players taken)
+
+design:
+python-based gui
+player view: list all players and their projections and values, group by 
+selected player view: view selected player draft data and real-time adjusted value
+draft results view: view all teams' drafted players and projected team values

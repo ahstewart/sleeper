@@ -1,0 +1,44 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Launch CLI (module)",
+            "type": "python",
+            "request": "launch",
+            "module": "sleeper_draft_tool.cli",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/src",
+                "DEBUG": "1"
+            },
+            "justMyCode": true
+        },
+        {
+            "name": "Python: Launch GUI (module)",
+            "type": "python",
+            "request": "launch",
+            "module": "sleeper_draft_tool.gui",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/src",
+                "DEBUG": "1"
+            },
+            "justMyCode": true
+        },
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/src",
+                "DEBUG": "1"
+            },
+            "justMyCode": true
+        }
+    ]
+}
