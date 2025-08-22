@@ -1,7 +1,8 @@
-def apply_scoring_settings(player_projection, scoring_settings):
-    # Apply scoring settings to the player's projection
-    adjusted_projection = player_projection * scoring_settings.get('multiplier', 1)
-    return adjusted_projection
+import fetchers
+from tqdm import tqdm
+import pdb
+
+
 
 def calculate_player_score(player, scoring_settings):
     # Calculate the score for a player based on their projection and scoring settings
@@ -21,3 +22,7 @@ def get_positional_standard_deviation(players):
     if len(projections) > 1:
         return statistics.stdev(projections)
     return 0.0
+
+
+if __name__ == "__main__":
+    apply_scoring_settings(1220874215918407680, 2025, "regular")

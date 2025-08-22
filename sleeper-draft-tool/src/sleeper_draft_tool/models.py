@@ -35,6 +35,7 @@ class Player:
     stats_id: Optional[str] = None
     birth_country: Optional[str] = None
     search_rank: Optional[int] = None
+    projection: Optional[float] = None  # Optional projection field
     raw: Dict[str, Any] = field(default_factory=dict)  # keep original JSON for reference
 
     @classmethod
@@ -72,11 +73,15 @@ class Player:
             stats_id=data.get("stats_id"),
             birth_country=data.get("birth_country"),
             search_rank=data.get("search_rank"),
+            projection=data.get("projection"),
             raw=dict(data),
         )
 
     def to_dict(self) -> Dict[str, Any]:
         return asdict(self)
+    
+    def update_projection(self, new_projection: float) -> None:
+        self.projection = new_projection
 
 
 @dataclass
@@ -732,8 +737,6 @@ class StatsProfile:
         }
 
 
-# ...existing code...
-
 @dataclass
 class AllStats:
     """
@@ -841,3 +844,46 @@ class AllStats:
             "profiles": {pid: p.to_dict() for pid, p in self.profiles.items()},
             "raw": dict(self.raw) if isinstance(self.raw, dict) else self.raw,
         }
+
+
+
+@dataclass
+class League:
+    total_rosters: Optional[int] = None
+    status: Optional[str] = None
+    sport: Optional[str] = None
+    settings: Dict[str, Any] = field(default_factory=dict)
+    season_type: Optional[str] = None
+    season: Optional[str] = None
+    scoring_settings: Dict[str, Any] = field(default_factory=dict)
+    roster_positions: List[str] = field(default_factory=list)
+    previous_league_id: Optional[str] = None
+    name: Optional[str] = None
+    league_id: Optional[str] = None
+    draft_id: Optional[str] = None
+    avatar: Optional[str] = None
+    raw: Dict[str, Any] = field(default_factory=dict)
+
+    @classmethod
+    def from_sleeper_json(cls, data: Dict[str, Any]) -> "League":
+        if not data:
+            return cls()
+        return cls(
+            total_rosters=data.get("total_rosters"),
+            status=data.get("status"),
+            sport=data.get("sport"),
+            settings=dict(data.get("settings") or {}),
+            season_type=data.get("season_type"),
+            season=str(data.get("season")) if data.get("season") is not None else None,
+            scoring_settings=dict(data.get("scoring_settings") or {}),
+            roster_positions=list(data.get("roster_positions") or []),
+            previous_league_id=data.get("previous_league_id"),
+            name=data.get("name"),
+            league_id=str(data.get("league_id")) if data.get("league_id") is not None else None,
+            draft_id=str(data.get("draft_id")) if data.get("draft_id") is not None else None,
+            avatar=data.get("avatar"),
+            raw=dict(data),
+        )
+
+    def to_dict(self) -> Dict[str, Any]:
+        return asdict(self)
