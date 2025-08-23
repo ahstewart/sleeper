@@ -91,7 +91,7 @@ if __name__ == "__main__":
     import config
     configs = config.Config()
     players = fetchers.fetch_relevant_players_with_projections(configs.API_ENDPOINT, configs.STATS_ENDPOINT, configs.LEAGUE_ID, 
-                                                          configs.SEASON, configs.SEASON_TYPE, configs.SPORT)
+                                                          configs.SEASON, configs.SEASON_TYPE, configs.SPORT, configs.DRAFT_AMOUNT)
     #players = fetchers.fetch_all_players(configs.API_ENDPOINT, configs.SPORT)
     breakpoint()
 
