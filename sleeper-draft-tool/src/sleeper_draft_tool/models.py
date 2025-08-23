@@ -35,7 +35,11 @@ class Player:
     stats_id: Optional[str] = None
     birth_country: Optional[str] = None
     search_rank: Optional[int] = None
-    projection: Optional[float] = None  # Optional projection field
+    projection: Optional[float] = None
+    vorp: Optional[float] = None
+    teamshare: Optional[float] = None
+    stddevs: Optional[float] = None
+    raw_value: Optional[float] = None
     raw: Dict[str, Any] = field(default_factory=dict)  # keep original JSON for reference
 
     @classmethod
@@ -74,6 +78,10 @@ class Player:
             birth_country=data.get("birth_country"),
             search_rank=data.get("search_rank"),
             projection=data.get("projection"),
+            vorp=data.get("vorp"),
+            teamshare=data.get("teamshare"),
+            stddevs=data.get("stddens"),
+            raw_value=data.get("raw_value"),
             raw=dict(data),
         )
 
@@ -153,6 +161,20 @@ class AllPlayers:
             "players": {pid: p.to_dict() for pid, p in self.players.items()},
             "raw": dict(self.raw),
         }
+    
+    def remove_player(self, player_id):
+        """
+        Remove a player from the AllPlayers container.
+
+        - player_id: player id (or numeric) to remove
+        Returns the removed Player object if found, otherwise None.
+        Also removes the player's entry from the raw mapping if present.
+        """
+        pid = str(player_id)
+        removed = self.players.pop(pid, None)
+        # keep raw in sync if it was keyed by player id
+        if isinstance(self.raw, dict):
+            self.raw.pop(pid, None)
 
 
 @dataclass

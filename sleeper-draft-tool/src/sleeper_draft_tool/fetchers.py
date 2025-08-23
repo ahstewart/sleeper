@@ -1,6 +1,7 @@
 import requests
 import models
 import pdb
+import utils
 
 def update_player_json(api_endpoint, sport, filename="players.json"):
     response = requests.get(f"{api_endpoint}/players/{sport}")
@@ -103,7 +104,7 @@ def fetch_league(api_endpoint, league_id):
     else:
         raise Exception(f"Error fetching league info: {response.status_code}")
     
-def fetch_all_players_with_projections(api_endpoint, stats_endpoint, league_id, season, season_type, sport):
+def fetch_relevant_players_with_projections(api_endpoint, stats_endpoint, league_id, season, season_type, sport, draft_budget):
     # Grab scoring settings for the league
     league = fetch_league(api_endpoint, league_id)
     scoring_settings = league.scoring_settings
@@ -125,6 +126,16 @@ def fetch_all_players_with_projections(api_endpoint, stats_endpoint, league_id, 
         except KeyError:
             pass
     print("Scoring settings applied successfully.")
+    # clean player data after applyng projections
+    all_players = utils.clean_player_data(all_players, league)
+    # add vorp calculations
+    all_players = utils.calculate_vorps(all_players, league)
+    # add teamshare calculations
+    all_players = utils.calculate_teamshare(all_players, league)
+    # add stddevs calculations
+    all_players = utils.calculate_stddevs(all_players, league)
+    # calculate raw value based on draft amount
+    all_players = utils.calculate_raw_value(all_players, league, draft_budget)
     return all_players
 
 
@@ -132,8 +143,10 @@ if __name__ == "__main__":
     import config
     configs = config.Config()
     try:
-        players = fetch_all_players_with_projections(configs.API_ENDPOINT, configs.STATS_ENDPOINT, configs.LEAGUE_ID, configs.SEASON, configs.SEASON_TYPE, configs.SPORT)
-        
+        players = fetch_relevant_players_with_projections(configs.API_ENDPOINT, configs.STATS_ENDPOINT, 
+                                                          configs.LEAGUE_ID, configs.SEASON, configs.SEASON_TYPE, 
+                                                          configs.SPORT, configs.DRAFT_AMOUNT)
+        #league = fetch_league(configs.API_ENDPOINT, configs.LEAGUE_ID)
     except Exception as e:
         print(e)
 

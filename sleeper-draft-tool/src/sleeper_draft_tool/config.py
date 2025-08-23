@@ -8,3 +8,4 @@ class Config:
     SPORT = "nfl"  # sport type
     SEASON = 2025  # current season
     SEASON_TYPE = "regular"  # regular or playoff
+    DRAFT_AMOUNT = 200 # number of dollars each team has to draft with

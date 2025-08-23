@@ -1,4 +1,4 @@
-def calculate_raw_value(player_projection, team_projection):
+def calculate_raw_value(players, team_projection):
     return player_projection / team_projection
 
 def calculate_adjusted_value(raw_value, available_roster_spots, available_money):
